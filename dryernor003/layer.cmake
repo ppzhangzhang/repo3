@@ -1,0 +1,12 @@
+add_executable(${CMAKE_PROJECT_NAME}
+    layer_logo.c
+    layer_ctrl.c
+    layer_start.c
+    layer_main.c
+    layer_upgrade.c
+    layer_prodmod.c
+    layer_test_mode.c
+    layer_gototest.c
+    layer_setting_wifi_ssid.c
+	layer_warn.c
+    )
